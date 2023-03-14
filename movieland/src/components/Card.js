@@ -9,8 +9,8 @@ export default function Card(props){
 
         <div className="card">
 
-        {/* <img src={props.movie.Poster} alt=""/> */}
-        <img src={imageUrl()} alt=""/>
+        <img src={props.movie.Poster} alt=""/>
+        {/* <img src={imageUrl()} alt=""/> */}
 
         <div className="movie-info">
            <p>{props.movie.Type.toUpperCase()}</p>
